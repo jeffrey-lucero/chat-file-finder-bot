@@ -17,11 +17,16 @@ This Python chatbot uses ChatterBot for conversational AI and Google Translate f
 
 ## Installation
 1. Install Python 3 if not already installed.
-2. Install the required dependencies:
+2. Create and activate a virtual environment:
+   ```sh
+   python -m venv .venv
+   source .venv/bin/activate  # Mac/Linux
+   .venv\Scripts\activate     # Windows
+3. Install the required dependencies:
    ```sh
    pip install chatterbot chatterbot_corpus googletrans==4.0.0-rc1
    ```
-3. Run the chatbot script:
+4. Run the chatbot script:
    ```sh
    python chatbot.py
    ```
